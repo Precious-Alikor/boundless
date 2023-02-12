@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+#main-container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.container-fluid,
+.row,
+.col-12,
+.col-md-1,
+.col-lg-6,
+p {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 700px;
+  background-image: url(./img/Group\ 306.svg);
+  padding: 0;
+  position: relative;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  list-style: none;
+}
+#logo {
+  font-size: 30px;
+}
+#navbar {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px 0 40px;
+  position: relative;
+}
+.navigation-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+li a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 45px;
+}
+#btn {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: #002d9f;
+  border-radius: 5px;
+  color: #fff;
+}
+.hamburger {
+  padding: 8px 10px;
+  background-color: #002d9f;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 13px;
+  height: 2px;
+  background-color: white;
+  margin: 3px 0;
+}
+.hero {
+  position: relative;
+  height: calc(700px - 80px);
+  background-image: url(./img/Group\ 305.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.hero_text {
+  margin-top: 60px;
+}
+.hero_text_one {
+  background: linear-gradient(
+    to right,
+    rgba(48, 93, 255, 100%),
+    rgba(0, 51, 184, 100%)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 45px;
+  font-weight: 700;
+}
+.hero_text_two {
+  width: 50%;
+}
+.hero_img {
+  position: absolute;
+  bottom: -30%;
+}
+.hero_img img {
+  max-width: 500px;
+}
+button {
+  padding: 8px 15px;
+  background-color: #002d9f;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  border: none;
+}
+.header_img {
+  width: 35%;
+  border: 1px solid red;
+  position: absolute;
+  bottom: -200px;
+}
+.about {
+  padding-top: 20%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.about_info {
+  height: 100%;
+  border: 1px solid blue;
+}
+.about_sec {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.about_icon img {
+  width: 50px;
+  height: 50px;
+}
+.about_text h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.about_text p {
+  font-size: 15px;
+}
+.about_img img {
+  max-width: 413px;
+}
+.partners_img {
+  width: 130px;
+}
+.sec_two {
+  display: flex;
+  background-image: linear-gradient(
+    to top,
+    rgb(233, 236, 255, 100%),
+    rgb(197, 218, 255, 47.22%),
+    rgb(166, 201, 255, 0%)
+  );
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 25%);
+}
+.sec_two p {
+  line-height: 30px;
+}
+.sec_two_img img {
+  width: 450px;
+}
+.sec_two h4 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.sec_three {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.sec_three_details span {
+  font-size: 13px;
+  color: #158fff;
+  font-weight: 700;
+}
+.sec_three_info img {
+  width: 40px;
+  height: 40px;
+}
+.mob_img {
+  display: none;
+}
+.sec_four_large {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.sec_four_det {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bg_four_header_img {
+  position: absolute;
+  top: 15%;
+  z-index: -1;
+}
+.bg_four_header_img img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.bg_four_img img {
+  max-width: 500px;
+}
+.sec_four_small {
+  display: none;
+}
+.download_sec {
+  background-image: linear-gradient(
+    to top,
+    rgb(233, 236, 255, 100%),
+    rgb(166, 201, 255, 0%)
+  );
+  padding: 40px 0 20px 0;
+}
+#ios-and-img {
+  width: 270px;
+}
+#bfi-img {
+  width: 800px;
+}
+hr {
+  background-color: 1px solid rgba(2, 0, 81, 8%);
+}
+.download_text {
+  width: 50%;
+}
+footer {
+  background-color: #eaedff;
+}
+.footer_link {
+  color: #0234b7;
+}
